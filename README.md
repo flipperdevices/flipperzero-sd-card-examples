@@ -6,60 +6,41 @@ Examples of all types of files stored on Flipper Zero SD card
 
 ```
 FLIPPER SD
-├── favorites.txt # Что это
+├── favorites.txt # List of items displayed in Favorites
 ├── Manifest
-├── badusb
-│   ├── demo_macos.txt
-│   ├── demo_windows.txt
+├── badusb # Put Rubber Ducky scripts here
+│   ├── demo_macos.txt 
+│   └── demo_windows.txt 
 ├── dolphin
-│   ├── Lx
-│   │   ├── frame_x.bm # Что это 
-│   │   └── meta.txt # Что это
-│   ├── animations # Что это тут делает 
-│   │   ├── laptop
-│   │   ├── recording
-│   │   ├── sleep
-│   │   └── waves
-│   └── manifest.txt # Что это 
+│   ├── L1_Furippa1_128x64
+│   │   ├── frame_x.bm # Animation frame
+│   │   └── meta.txt # Set of rules for playing frames
+│   └── manifest.txt # Describes animation selection parameters
 ├── ibutton
-│   └── Z_home.ibtn
+│   └── Flipper_home.ibtn
 ├── infrared
-│   └── assets
+│   ├── TV_bedroom.ir
+│   └── assets # Signal libraries
 │       └── tv.ir
-├── irda
-│   ├── assets
-│   ├── remote.ir
-│   ├── remote_1644530225.ir
-│   ├── remote_1644530244.ir
-│   ├── remote_1644530304.ir
-│   ├── remote_1644530419.ir
-│   ├── remote_1644530679.ir
-│   └── universal
 ├── lfrfid
-│   ├── Hohl_down.rfid
-│   ├── Hohl_up.rfid
-│   ├── Home.rfid
-│   └── Horosh.rfid
-├── music_player
+│   ├── Home_entry.rfid
+│   └── Visitor_pass.rfid
+├── music_player # List of tunes to play
+│   ├── Chasing.fmf
 │   └── Marble_Machine.fmf
 ├── nfc
-│   ├── Bank_emv.nfc
-│   ├── Green.nfc
-│   ├── Sportik.nfc
-│   ├── assets
-│   │   ├── aid.nfc
-│   │   ├── country_code.nfc
-│   │   ├── currency_code.nfc
-│   │   └── mf_classic_dict.nfc
-│   └── emv
-├── rwfiletest.bin
-├── stress_test
+│   ├── Desfire.nfc
+│   ├── Ntag_213.nfc
+│   ├── RocketBank.nfc
+│   └── assets
+│       ├── aid.nfc
+│       ├── country_code.nfc
+│       ├── currency_code.nfc
+│       └── mf_classic_dict.nfc
+├── rwfiletest.bin # Creates after running SD benchmark
 ├── subghz
-│   ├── 2.sub
-│   ├── Din_don.sub
-│   ├── Lenin.sub
-│   ├── Raw_signal_.sub
-│   ├── Raw_temp.sub
+│   ├── PC_Led_color.sub # Captured packet
+│   ├── Hall_Lights_off.sub # Recordered raw signal
 │   └── assets
 │       ├── came_atomo
 │       ├── keeloq_mfcodes
@@ -71,20 +52,13 @@ FLIPPER SD
 │   ├── assets
 │   │   ├── cert.der
 │   │   └── cert_key.u2f
-│   ├── cnt.u2f
-│   └── key.u2f
+│   ├── cnt.u2f # Key counter
+│   └── key.u2f # Device key
 └── update
-    ├── f7-update-x.xx.x
-    │   ├── backup.tar
-    │   ├── flipper-z-f7-full-0.57.0.dfu
-    │   ├── flipper-z-f7-updater-0.57.0.bin
-    │   ├── resources.tar
-    │   ├── stm32wb5x_BLE_Stack_light_fw.bin
-    │   └── update.fuf
-    └── f7-update-dev-08052022-f04d0eea
+    └── f7-update-dev-29042022-0eac917f
         ├── backup.tar
-        ├── flipper-z-f7-full-dev-08052022-f04d0eea.dfu
-        ├── flipper-z-f7-updater-dev-08052022-f04d0eea.bin
+        ├── flipper-z-f7-full-dev-29042022-0eac917f.dfu
+        ├── flipper-z-f7-updater-dev-29042022-0eac917f.bin
         ├── resources.tar
         ├── stm32wb5x_BLE_Stack_light_fw.bin
         └── update.fuf
