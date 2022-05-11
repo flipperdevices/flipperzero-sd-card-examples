@@ -1,0 +1,4 @@
+
+/any/lfrfid/Home_entry.rfid
+/any/nfc/Office_pass.nfc
+/any/subghz/Hall_Lights_off.sub

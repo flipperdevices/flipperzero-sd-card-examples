@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0D 00 00 00
+# 
+name: Vol_UP
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_DWN
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 15 00 00 00
+# 
+name: CH_UP
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4515 4490 572 561 569 1668 572 1665 596 1669 571 561 569 562 547 559 571 560 539 567 563 1674 566 1672 589 1624 678 479 568 563 567 565 545 587 543 562 568 1643 597 561 538 567 574 1664 566 566 564 568 542 564 566 1671 569 563 567 1670 570 1668 593 565 545 1667 573 1691 570 1668 572 46073 4519 4486 565 1671 600
+# 
+name: CH_DWN
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 13 00 00 00
