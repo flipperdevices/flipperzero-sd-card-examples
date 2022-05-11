@@ -4,6 +4,7 @@ Examples of all types of files stored on Flipper Zero SD card
 
 ## SD Card file structure
 
+```
 FLIPPER SD
 ├── favorites.txt # Что это
 ├── Manifest
