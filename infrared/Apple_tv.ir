@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0B A0 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0D A0 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5D A0 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 08 A0 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 07 A0 00 00
