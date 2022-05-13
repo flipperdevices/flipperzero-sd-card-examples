@@ -1,0 +1,15 @@
+Filetype: Flipper NFC device
+Version: 2
+# Nfc device type can be UID, Mifare Ultralight, Mifare Classic, Bank card
+Device type: Bank card
+# UID, ATQA and SAK are common for all formats
+UID: 71 45 D3 C7
+ATQA: 04 00
+SAK: 20
+# Bank card specific data
+AID: A0 00 00 00 04 10 10
+Name: MasterCard
+Number: 53 21 30 45 91 21 61 86
+Exp data: 03 24
+Country code: 1603
+Currency code: 1603

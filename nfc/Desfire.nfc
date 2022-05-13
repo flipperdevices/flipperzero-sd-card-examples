@@ -1,0 +1,183 @@
+Filetype: Flipper NFC device
+Version: 2
+# Nfc device type can be UID, Mifare Ultralight, Bank card
+Device type: Mifare DESFire
+# UID, ATQA and SAK are common for all formats
+UID: 04 4A 2B DA EE 5D 80
+ATQA: 44 03
+SAK: 20
+# Mifare DESFire specific data
+PICC Version: 04 01 01 01 00 18 05 04 01 01 01 04 18 05 04 4A 2B DA EE 5D 80 B9 0C 18 4D 00 30 18
+PICC Free Memory: 1856
+PICC Change Key ID: 00
+PICC Config Changeable: true
+PICC Free Create Delete: false
+PICC Free Directory List: true
+PICC Key Changeable: true
+PICC Max Keys: 01
+PICC Key 0 Version: 01
+Application Count: 4
+Application IDs: 42 22 01 42 22 04 42 22 05 42 22 06
+Application 422201 Change Key ID: 01
+Application 422201 Config Changeable: true
+Application 422201 Free Create Delete: false
+Application 422201 Free Directory List: true
+Application 422201 Key Changeable: true
+Application 422201 Max Keys: 06
+Application 422201 Key 0 Version: 01
+Application 422201 Key 1 Version: 01
+Application 422201 Key 2 Version: 01
+Application 422201 Key 3 Version: 01
+Application 422201 Key 4 Version: 01
+Application 422201 Key 5 Version: 01
+Application 422201 File IDs: 01 02 03 04 05 06 07 08
+Application 422201 File 1 Type: 01
+Application 422201 File 1 Communication Settings: 01
+Application 422201 File 1 Access Rights: 21 E2
+Application 422201 File 1 Size: 32
+Application 422201 File 1: 40 01 02 00 13 01 1E 03 25 19 13 01 1E 03 25 19 34 17 EB 99 EE E0 00 22 02 00 65 42 69 6C 65 74
+Application 422201 File 2 Type: 00
+Application 422201 File 2 Communication Settings: 01
+Application 422201 File 2 Access Rights: 21 E2
+Application 422201 File 2 Size: 64
+Application 422201 File 2: 63 70 60 02 51 79 03 96 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Application 422201 File 3 Type: 02
+Application 422201 File 3 Communication Settings: 01
+Application 422201 File 3 Access Rights: 21 43
+Application 422201 File 3 Hi Limit: 500000
+Application 422201 File 3 Lo Limit: 0
+Application 422201 File 3 Limited Credit Value: 260
+Application 422201 File 3 Limited Credit Enabled: true
+Application 422201 File 4 Type: 01
+Application 422201 File 4 Communication Settings: 01
+Application 422201 File 4 Access Rights: 21 32
+Application 422201 File 4 Size: 96
+Application 422201 File 5 Type: 00
+Application 422201 File 5 Communication Settings: 01
+Application 422201 File 5 Access Rights: 51 35
+Application 422201 File 5 Size: 32
+Application 422201 File 6 Type: 01
+Application 422201 File 6 Communication Settings: 00
+Application 422201 File 6 Access Rights: 21 33
+Application 422201 File 6 Size: 128
+Application 422201 File 7 Type: 01
+Application 422201 File 7 Communication Settings: 00
+Application 422201 File 7 Access Rights: 21 32
+Application 422201 File 7 Size: 96
+Application 422201 File 8 Type: 00
+Application 422201 File 8 Communication Settings: 00
+Application 422201 File 8 Access Rights: 31 23
+Application 422201 File 8 Size: 96
+Application 422204 Change Key ID: 01
+Application 422204 Config Changeable: true
+Application 422204 Free Create Delete: false
+Application 422204 Free Directory List: true
+Application 422204 Key Changeable: true
+Application 422204 Max Keys: 04
+Application 422204 Key 0 Version: 01
+Application 422204 Key 1 Version: 01
+Application 422204 Key 2 Version: 01
+Application 422204 Key 3 Version: 01
+Application 422204 File IDs: 01 02 03 04 05
+Application 422204 File 1 Type: 00
+Application 422204 File 1 Communication Settings: 01
+Application 422204 File 1 Access Rights: 21 E2
+Application 422204 File 1 Size: 32
+Application 422204 File 1: 00 00 04 00 13 01 1E 03 25 1A 13 01 1E 03 25 1A 34 17 EB 99 EE E0 00 22 02 00 50 44 4B 53 20 20
+Application 422204 File 2 Type: 00
+Application 422204 File 2 Communication Settings: 00
+Application 422204 File 2 Access Rights: E1 EE
+Application 422204 File 2 Size: 64
+Application 422204 File 2: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Application 422204 File 3 Type: 02
+Application 422204 File 3 Communication Settings: 00
+Application 422204 File 3 Access Rights: 21 33
+Application 422204 File 3 Hi Limit: 200000
+Application 422204 File 3 Lo Limit: 0
+Application 422204 File 3 Limited Credit Value: 0
+Application 422204 File 3 Limited Credit Enabled: false
+Application 422204 File 4 Type: 00
+Application 422204 File 4 Communication Settings: 00
+Application 422204 File 4 Access Rights: 21 32
+Application 422204 File 4 Size: 64
+Application 422204 File 5 Type: 01
+Application 422204 File 5 Communication Settings: 00
+Application 422204 File 5 Access Rights: 21 33
+Application 422204 File 5 Size: 64
+Application 422205 Change Key ID: 01
+Application 422205 Config Changeable: true
+Application 422205 Free Create Delete: false
+Application 422205 Free Directory List: true
+Application 422205 Key Changeable: true
+Application 422205 Max Keys: 05
+Application 422205 Key 0 Version: 01
+Application 422205 Key 1 Version: 01
+Application 422205 Key 2 Version: 01
+Application 422205 Key 3 Version: 01
+Application 422205 Key 4 Version: 01
+Application 422205 File IDs: 01 02 03 04 05 06
+Application 422205 File 1 Type: 00
+Application 422205 File 1 Communication Settings: 01
+Application 422205 File 1 Access Rights: 21 E2
+Application 422205 File 1 Size: 32
+Application 422205 File 1: 00 00 01 00 13 01 1E 03 25 1A 13 01 1E 03 25 1A 34 17 EB 99 EE E0 00 22 02 00 49 53 50 41 52 4B
+Application 422205 File 2 Type: 00
+Application 422205 File 2 Communication Settings: 00
+Application 422205 File 2 Access Rights: E1 EE
+Application 422205 File 2 Size: 64
+Application 422205 File 2: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Application 422205 File 3 Type: 02
+Application 422205 File 3 Communication Settings: 01
+Application 422205 File 3 Access Rights: 31 44
+Application 422205 File 3 Hi Limit: 2100000000
+Application 422205 File 3 Lo Limit: 0
+Application 422205 File 3 Limited Credit Value: 0
+Application 422205 File 3 Limited Credit Enabled: true
+Application 422205 File 4 Type: 00
+Application 422205 File 4 Communication Settings: 01
+Application 422205 File 4 Access Rights: 21 42
+Application 422205 File 4 Size: 64
+Application 422205 File 5 Type: 00
+Application 422205 File 5 Communication Settings: 01
+Application 422205 File 5 Access Rights: 31 43
+Application 422205 File 5 Size: 128
+Application 422205 File 6 Type: 01
+Application 422205 File 6 Communication Settings: 00
+Application 422205 File 6 Access Rights: 31 44
+Application 422205 File 6 Size: 64
+Application 422206 Change Key ID: 01
+Application 422206 Config Changeable: true
+Application 422206 Free Create Delete: false
+Application 422206 Free Directory List: true
+Application 422206 Key Changeable: true
+Application 422206 Max Keys: 04
+Application 422206 Key 0 Version: 01
+Application 422206 Key 1 Version: 01
+Application 422206 Key 2 Version: 01
+Application 422206 Key 3 Version: 01
+Application 422206 File IDs: 01 02 03 04 05
+Application 422206 File 1 Type: 00
+Application 422206 File 1 Communication Settings: 01
+Application 422206 File 1 Access Rights: 21 E2
+Application 422206 File 1 Size: 32
+Application 422206 File 1: 00 00 01 00 13 01 1E 03 25 1B 13 01 1E 03 25 1B 34 17 EB 99 EE E0 00 22 02 00 55 59 47 30 36 20
+Application 422206 File 2 Type: 00
+Application 422206 File 2 Communication Settings: 00
+Application 422206 File 2 Access Rights: E1 EE
+Application 422206 File 2 Size: 64
+Application 422206 File 2: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Application 422206 File 3 Type: 02
+Application 422206 File 3 Communication Settings: 01
+Application 422206 File 3 Access Rights: 21 33
+Application 422206 File 3 Hi Limit: 2100000000
+Application 422206 File 3 Lo Limit: 0
+Application 422206 File 3 Limited Credit Value: 0
+Application 422206 File 3 Limited Credit Enabled: false
+Application 422206 File 4 Type: 00
+Application 422206 File 4 Communication Settings: 01
+Application 422206 File 4 Access Rights: 21 32
+Application 422206 File 4 Size: 64
+Application 422206 File 5 Type: 01
+Application 422206 File 5 Communication Settings: 00
+Application 422206 File 5 Access Rights: 21 33
+Application 422206 File 5 Size: 64
