@@ -38,6 +38,7 @@ FLIPPER SD
 │   ├── Ntag_216.nfc # Ntag_216 card
 │   ├── Classik_1k.nfc # Classik_1k card
 │   ├── RocketBank.nfc # Banking card
+│   ├── UID.nfc # Card with only UID data
 │   └── assets # NFC libraries
 │       ├── aid.nfc
 │       ├── country_code.nfc
